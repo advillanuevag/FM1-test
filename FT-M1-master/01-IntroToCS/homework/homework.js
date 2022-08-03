@@ -21,7 +21,6 @@ function DecimalABinario(num) {
     result = (num % 2) + result;
     num = Math.floor(num / 2);
   }
-  //console.log(result);
   return result;
 
 }
